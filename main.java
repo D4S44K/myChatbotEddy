@@ -14,13 +14,10 @@ import static java.lang.String.join;
 
 public class Main {
     public static Map<String, String[]> botmap = new HashMap<>(){{
-        put("eddy", new String[]{"ed.", "140", "158", "255", "NzMzNjkwMDA2NzMxODgyNDk3.XxG0Hw.ENBR1FKlRAVWE9K8u6IgOtUzf2Y","733690006731882497"});
-        put("kiwi", new String[]{"k!", "205", "231", "134", "NzI4Nzc3MzgyNDQ5OTA1NzE1.XxHs9g.7ZfK9TYoQEF9U5dTB0EiWv9MrG4","728777382449905715"});
-        put("leebot", new String[] {"$","140","158","255", "NzI4NDc4MzQ4MDQ0NTMzODAw.Xv6-VA.IlV7BCMi_qJUa3FZYWZ4PNQ7Ids","728478348044533800"});
         put("dishabot", new String[] {"h!", "140","158","255", "NzI4MzgwMTk3MjM3MTYxOTg2.Xv5i6w.pJ4pwW5FDWdOF5WNeCnIyvcmb84", "728380197237161986"});
     }};
 
-    public static String botname = "eddy";
+    /*public static String botname = "eddy";
 
     public static String[] botvar = botmap.get(botname);
 
@@ -32,7 +29,7 @@ public class Main {
 
     public static long botID = Long.parseLong(botvar[5]);
 
-    public static DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
+    public static DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();*/
 
     // variables for stopwatch
     public static ArrayList<Stopwatch> watches = new ArrayList<>();
